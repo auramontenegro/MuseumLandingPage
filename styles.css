@@ -1,0 +1,183 @@
+
+/* General style set by the style guide, default values as follows */
+body {
+  margin: 0;
+  padding: 0;
+  width: 1024px;
+  font-size: 14px;
+  color:#333333;
+  font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+/* Sets left margin of header */
+header {margin-left: 20px;}
+
+/* Header style set by the style guide, no margin or padding
+ between title and location text */
+h1 {
+  margin-bottom: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 2.2em;
+}
+
+.location {
+  margin-top: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
+/* No margin or padding between h1 y h2 */
+h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* Top margin 15px to give at least 15px space between news 
+items, no padding and no bottom margin */
+h3 {
+  margin-top: 15px;
+  margin-bottom: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* Underlines the landing page header links when the user 
+hovers or focuses, good for accessibility */
+*:focus {text-decoration: underline;}
+
+a {color: #333333; text-decoration: none;}
+
+a:hover, a:focus {text-decoration: underline;}
+
+/* Defines the style for the landing page header
+ (navigation menu) */
+nav {
+  background-color: #333333; width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fefefe; 
+  font-size: 120%;   
+  margin-top: 10px;
+  margin-left: 20px;  
+}
+
+/* Removes bullet points from landing page header */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Landing page header links as a horizontal list */
+nav li {
+  display: inline-block;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+/* Sets the text colour for the header links*/
+nav a {color: #fefefe;}
+
+/* Style for current header link */
+.current_header_link {
+  border-bottom: 3px;
+  border-bottom-color: #ff0000;
+  border-bottom-style: solid;
+}
+
+/* Style of solid red underline when user focuses or
+ hovers on landing page header links */
+nav a:hover, nav a:focus {
+  border-bottom: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #ff0000;
+  text-decoration: none;
+}
+
+/* Space covered by main area, no padding or margin 
+between image and title */
+#main_area {padding: 0; width: 768px;}
+
+/* No padding or margin for images */
+figure {margin: 0; padding: 0;}
+
+/* Text underlined and change in opacity on hover or 
+focus of image or link */
+figure:hover, figure:focus {
+  opacity: 0.6;
+  text-decoration: underline;
+}
+
+/* To position the image caption under the image */
+figcaption {display: block;}
+
+
+/* To arrange the position of the Images */
+#image1 {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+}
+
+#image2 {
+  position: absolute;
+  top: 150px;
+  left: 272px;
+}
+
+#image3 {
+  position: absolute;
+  top: 150px;
+  left: 522px;
+}
+
+#image4 {
+  position: absolute;
+  top:450px;
+  left: 20px;
+}
+
+#image5 {
+  position: absolute;
+  top: 450px;
+  left: 272px;
+}
+
+#image6 {
+  position: absolute;
+  top: 450px;
+  left: 522px;
+}
+
+/*News sidebar to the right*/
+#news {
+  padding: 0;
+  width: 256px;
+  position: absolute;
+  top: 150px;
+  left: 770px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/*No margin and padding, to avoid space between 
+news title and date */
+.date {
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+/*Style for footer*/
+.footer {
+  position: absolute; left: 24px; top: 980px;
+  font-family: Times, "Times New Roman", Georgia, serif;
+  font-size: 12px;
+  color: #000000;
+} 
